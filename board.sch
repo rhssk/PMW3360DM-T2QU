@@ -427,12 +427,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0107
 U 1 1 5B2AAC2B
-P 7300 2525
-F 0 "#PWR0107" H 7300 2375 50  0001 C CNN
-F 1 "+3.3V" H 7450 2600 50  0000 C CNN
-F 2 "" H 7300 2525 50  0001 C CNN
-F 3 "" H 7300 2525 50  0001 C CNN
-	1    7300 2525
+P 7750 2400
+F 0 "#PWR0107" H 7750 2250 50  0001 C CNN
+F 1 "+3.3V" H 7900 2475 50  0000 C CNN
+F 2 "" H 7750 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0001 C CNN
+	1    7750 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -460,14 +460,60 @@ Connection ~ 6925 3100
 Wire Wire Line
 	6925 3100 7750 3100
 Wire Wire Line
-	7300 2525 7300 2600
-Wire Wire Line
 	7300 2925 7225 2925
 Wire Wire Line
-	7725 2750 7725 2600
+	7300 2925 7300 2550
 Wire Wire Line
-	7725 2600 7300 2600
-Connection ~ 7300 2600
+	7300 2550 7750 2550
 Wire Wire Line
-	7300 2600 7300 2925
+	7750 2550 7750 2400
+Wire Wire Line
+	7750 2550 7750 2750
+Wire Wire Line
+	7750 2750 7725 2750
+Connection ~ 7750 2550
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5B295FD5
+P 6775 650
+F 0 "J3" H 6850 700 50  0000 L CNN
+F 1 "Mounting_Hole" H 6850 625 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 650 50  0001 C CNN
+F 3 "~" H 6775 650 50  0001 C CNN
+	1    6775 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5B29617E
+P 6775 800
+F 0 "J4" H 6850 850 50  0000 L CNN
+F 1 "Mounting_Hole" H 6850 775 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 800 50  0001 C CNN
+F 3 "~" H 6775 800 50  0001 C CNN
+	1    6775 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5B2961E6
+P 6775 950
+F 0 "J5" H 6850 1000 50  0000 L CNN
+F 1 "Mounting_Hole" H 6850 925 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 950 50  0001 C CNN
+F 3 "~" H 6775 950 50  0001 C CNN
+	1    6775 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5B29621C
+P 6775 1100
+F 0 "J6" H 6850 1150 50  0000 L CNN
+F 1 "Mounting_Hole" H 6850 1075 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6775 1100 50  0001 C CNN
+F 3 "~" H 6775 1100 50  0001 C CNN
+	1    6775 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
