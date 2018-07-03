@@ -1,6 +1,6 @@
 # PMW3360DM-T2QU
 
-**Currently untested**
+**Currently untested, might need level shifters on SPI lines**
 
 PCB schematic and design for the Pixart PMW3360DM-T2QU optical mouse sensor. Connects the SPI lines as well as power
 from MCU through 2.54mm pin header. 3.3V are expected from the MCU side.
