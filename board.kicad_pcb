@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-200-g1f6f76beb)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc3-dev)")
 
   (general
     (thickness 1.6)
@@ -73,7 +73,7 @@
     (pad_drill 0.7)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFDBE7F)
+    (visible_elements FFFDBE3F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -887,7 +887,7 @@
   (segment (start 139.8446 53.3654) (end 136.2075 57.0025) (width 0.254) (layer F.Cu) (net 15))
   (segment (start 140.9446 53.3654) (end 139.8446 53.3654) (width 0.254) (layer F.Cu) (net 15))
 
-  (zone (net 13) (net_name GND) (layer F.Cu) (tstamp 5B31F3B5) (hatch edge 0.508)
+  (zone (net 13) (net_name GND) (layer F.Cu) (tstamp 5B3BBA36) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

@@ -25,7 +25,4 @@ _saved*
 *.xml
 *.csv
 
-# Exported Gerber files
-Gerber*
-
 # End of https://www.gitignore.io/api/kicad
