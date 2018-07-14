@@ -16,6 +16,11 @@ from MCU through 2.54mm pin header. 3.3V are expected from the MCU side.
 * 1 x [TLV70019DDCT 1.9V LDO](http://uk.farnell.com/texas-instruments/tlv70019ddct/ldo-reg-0-175vdo-0-2a-1-9v-5sot23/dp/2144265)
 * 1 x [1x7 2.54mm pin header](http://uk.farnell.com/amphenol-fci/68000-107hlf/board-to-board-header-7-position/dp/1924186)
 
+## Software
+A couple of options:
+* [For SAMD21G18A/ATmega32u4](https://github.com/nekuneko/PMW3360DM-T2QU)
+* [For Arduino](https://github.com/mrjohnk/PMW3360DM-T2QU)
+
 ## Misc
-* Created on KiCAD 5.0.0-rc2-171-g44c1f578
+* Created on KiCAD 5.0.0
 * Footprint for the sensor is [available here](https://github.com/rhssk/kicad-footprints/tree/master/Pixart.pretty)
