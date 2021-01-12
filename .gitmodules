@@ -1,0 +1,6 @@
+[submodule "kicad-footprints"]
+	path = kicad-footprints
+	url = https://github.com/rhssk/kicad-footprints.git
+[submodule "kicad-symbols"]
+	path = kicad-symbols
+	url = https://github.com/rhssk/kicad-symbols.git

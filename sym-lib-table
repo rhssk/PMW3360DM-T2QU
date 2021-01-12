@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "power_rhssk")(type "KiCad")(uri "${KIPRJMOD}/kicad-symbols/power_rhssk.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensor_Optical_rhssk")(type "KiCad")(uri "${KIPRJMOD}/kicad-symbols/Sensor_Optical_rhssk.kicad_sym")(options "")(descr ""))
+)
